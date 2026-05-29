@@ -1,1 +1,2 @@
-# alu-shell
+# Shell Basics
+Shell basics scripts for ALU.
