@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# read and cut
-while IFS=: read u p i g c h s
+# This script displays username, user id and home directory from /etc/passwd
+while IFS=: read -r u p i g c h s
 do
     echo "$u:$i:$h"
 done < /etc/passwd
