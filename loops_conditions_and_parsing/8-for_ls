@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# for ls
-for f in *
+# This script displays content of current directory after first dash
+for f in [^.]*
 do
-    echo ${f#*-}
+    echo "${f#*-}"
 done
