@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# tell the story of passwd
+while IFS=: read u p i g c h s
+do
+    echo "The user $u is part of the $g gang, lives in $h and rides $s. $i's place is protected by the passcode $p, more info about the user here: $c"
+done < /etc/passwd
